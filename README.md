@@ -41,13 +41,9 @@ python main.py
 python main.py --ui cli --model gpt-4
 ```
 
-### Web Interface (Streamlit)
-
+### Web Interface
 ```bash
-# Run with web UI
-python main.py --ui web
-
-# Specify a different model
+# Specify a different model -  this works the
 python main.py --ui web --model claude
 ```
 
