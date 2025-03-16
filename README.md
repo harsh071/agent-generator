@@ -10,7 +10,7 @@ A powerful tool that generates custom LLM agents using GPT-4 or Claude, with ada
   - LangChain Adapter: For workflow and chain-of-thought operations
   - SmalAgents Adapter: For lightweight, specific-purpose agents
   - OpenAI Assistants Adapter: For leveraging OpenAI's agent capabilities
-- **User-friendly Interface**: Collect specifications through UI/CLI
+- **Command Line Interface**: Simple CLI for collecting agent specifications
 - **Framework Selection**: Automatically determine appropriate framework based on requirements
 
 ## Installation
@@ -31,25 +31,16 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-### Command Line Interface (CLI)
-
 ```bash
-# Run with CLI (default)
+# Run the application
 python main.py
 
 # Explicitly specify CLI and model
 python main.py --ui cli --model gpt-4
 ```
 
-### Web Interface
-```bash
-# Specify a different model -  this works the
-python main.py --ui web --model claude
-```
-
 ## Command Line Arguments
 
-- `--ui`: User interface type (`cli` or `web`, default: `cli`)
 - `--model`: LLM model to use for generation (`gpt-4` or `claude`, default: `gpt-4`)
 
 ## Using the Generated Agent
@@ -69,7 +60,6 @@ After generating an agent:
   - anthropic
   - langchain
   - llama-index
-  - streamlit
   - pydantic
   - python-dotenv
   - requests

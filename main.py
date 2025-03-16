@@ -10,7 +10,6 @@ from dotenv import load_dotenv
 
 from agent_generator.core.engine import AgentGenerationEngine
 from agent_generator.ui.cli import CLI
-from agent_generator.ui.web import WebUI
 
 # Load environment variables from .env file
 load_dotenv()
